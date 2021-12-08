@@ -11,6 +11,11 @@ function HomePage() {
         <meta name="twitter:title" content="React App - HomePage" />
       </Helmet>
       <div>HomePage</div>
+      <div>
+        Không bao giờ làm được dynamic twitter card với create-react-app, bởi vì
+        twitter card generator chỉ đọc file html của trang web.
+      </div>
+      <div>Server side rendering là giải pháp duy nhất.</div>
     </div>
   );
 }
